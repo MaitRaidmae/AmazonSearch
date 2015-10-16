@@ -1,0 +1,154 @@
+﻿body {
+   font-family:Arial, Helvetica, sans-serif
+}
+
+p{
+    max-width:1300px;
+}
+
+select {
+    color: #000000;
+    background-color: antiquewhite;
+    width: 100px;
+    height: 30px;
+    font-family: 'Book Antiqua';
+    font-weight: bold;
+    border-radius: 1px;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -webkit-box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.5);
+}
+
+
+input[id="SearchField"]{
+    color: #000000;
+    background-color: antiquewhite;
+    width: 335px;
+    max-width: 1190px;
+    margin: 0px;
+    height: 30px;
+    font-family: 'Book Antiqua';
+    font-weight: bold;
+    border-color: black;
+    border-radius: 1px;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -webkit-box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.5);
+}
+
+button,input[id="btnSearch"] {
+    color: #000000;
+    display: inline;
+    background-color: antiquewhite;
+    width: 100px;
+    height: 30px;
+    font-family: 'Book Antiqua';
+    font-weight: bold;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.5);
+}
+
+button:disabled {
+    background-color:gray;
+}
+
+a:link {
+    color: black;
+}
+
+#currencySelect {
+    margin-top:10px;
+}
+
+#navStrip {
+    margin: 5px;
+}
+
+#navStrip * {
+    display:inline-block;
+}
+
+.pageNr {
+    margin-left: 100px;
+    margin-right: 100px;
+    padding:10px;
+    background-color:antiquewhite;
+    font-weight:bold;
+    border-color: #000000;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-box-shadow: 0px 5px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+#nextBtn {
+}
+
+#previousBtn {
+
+}
+
+#ResultsTable {
+    width: 100%;
+    max-width:1300px;
+    border: solid;
+    border-color: black;
+    border-width: thin;
+    margin: 5px;
+    color: black;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.5);
+}
+
+.searchTableHeaderCell {
+    padding: 5px;
+    color: black;
+}
+
+.searchTableHeaderRow {
+    margin: 5px;
+    background-color: antiquewhite;
+    border:solid;
+    border-color: black;
+    font-weight:bold;
+}
+
+.priceGBPCellClass, .priceCellClass, .categoryCellClass {
+    margin:7px;
+    border-collapse:collapse;
+    border-color: antiquewhite;
+    text-align:center;
+}
+
+
+/* Set column widths for the table*/
+#imageCol {
+    width: 100px;
+}
+
+#titleCol {
+}
+
+#categoryCol {
+    width: 100px;
+    text-align:center;
+}
+
+#priceGBPCol {
+    width: 110px;
+    text-align:center;
+}
+
+#priceCol {
+    width: 110px;
+    text-align:center;
+}
